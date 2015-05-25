@@ -1,0 +1,40 @@
+body {
+	background-image: url(/img/bg5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.main-header {
+	margin-top: 104px;
+	height: 164px;
+	background-image: url(/img/banner.jpg);
+	text-align: center;
+	color: white;
+}
+
+.main-header__avatar {
+	margin-top: -65px;
+	/*	avatar的50% */
+	
+	margin-bottom: 10px;
+	box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	/* 教程教的是 999px */
+}
+
+h1 {
+	margin-bottom: 20px;
+	margin-top: 0;
+	/* 这里改变了h1的默认margin */
+	
+	font-weight: 300;
+	font-size: 50px;
+	font-family: 'Open Sans', 'helvetica', arial, sans-serif;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
