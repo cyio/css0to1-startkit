@@ -18,6 +18,10 @@ h6 {
 	font-weight: 300;
 }
 
+h3{
+	font-size: 23px;
+}
+
 li {
 	list-style: none;
 }
@@ -63,39 +67,46 @@ h1 {
 .main-nav ul {
 	text-align: center;
 	margin: 0;
+	height: 49px;
 }
 
 .main-nav ul li {
-	margin: 15px 10px;
+	padding: 15px 10px;
 	display: inline-block;
 }
 
 .main-nav a {
 	color: white;
 	font-size: 0.9rem;
-	font-weight: 300;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-.main-nav a:hover {
-	text-decoration: underline;
+.main-nav li:hover {
+	/*	text-decoration: underline;*/
+	
+	background-color: #000;
+	cursor: pointer;
 }
 
 .info-section {
-	height: 400px;
 	padding: 30px 60px;
 	background-color: #fff;
-	text-align: center;	
 	border-bottom: 1px solid #EDEDED;
 }
 
-.info-section ul {
-	padding-left: 0;
-	padding-top: 35px;
+.whatido {
+	text-align: center;
+	height: 450px;
 }
 
-.info-section ul li {
+.whatido ul {	
+	overflow: hidden;
+	padding-left: 0;
+}
+
+.whatido ul li {
 	padding-top: 100px;
 	width: 33.3%;
 	float: left;
@@ -115,10 +126,15 @@ h1 {
 	background-image: url(../img/skill-product.png);
 }
 
+.info-section header{
+	margin-bottom: 60px;
+	text-align: center;
+}
+
 .info-section header h2 {
-	font-size: 28px;	
+	font-size: 28px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 3px;	
 }
 
 .info-section__description {
@@ -126,10 +142,53 @@ h1 {
 }
 
 .info-section header h2:after {
-  display: block;
-  content: "";
-  background-color: #333;
-  width: 2em;
-  height: .1em;
-  margin: .4em auto;
+	display: block;
+	content: "";
+	background-color: #333;
+	width: 2em;
+	height: .1em;
+	margin: .4em auto;
+}
+
+.education-experience ul li{
+	height: 250px;
+}
+
+.education-experience ul{
+	padding-left: 0
+}
+
+.education-experience img{
+	width: 180px;
+	height: 180px;	
+	float: left;
+	padding-right: 40px;	
+}
+
+.education-experience__title {
+	font-weight: bold;
+}
+
+.education-experience__description{
+	overflow: hidden;
+}
+
+
+.photos{
+	padding: 30px 0px;
+}
+
+.photos__list{
+	overflow: hidden;
+	padding-left: 0;
+}
+
+.photos__list li {
+/*	box-sizing: border-box;*/
+	float: left;
+	padding: 10px;
+}
+
+.photos__list li img{
+	width: 100%;
 }
