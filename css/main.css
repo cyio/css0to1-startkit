@@ -18,7 +18,7 @@ h6 {
 	font-weight: 300;
 }
 
-h3{
+h3 {
 	font-size: 23px;
 }
 
@@ -41,19 +41,14 @@ li {
 
 .main-header__avatar {
 	margin-top: -65px;
-	/*	avatar的50% */
-	
 	margin-bottom: 10px;
 	box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 50%;
-	/* 教程教的是 999px */
 }
 
 h1 {
 	margin-bottom: 20px;
 	margin-top: 0;
-	/* 这里改变了h1的默认margin */
-	
 	font-weight: 300;
 	font-size: 50px;
 	font-family: 'Open Sans', 'helvetica', arial, sans-serif;
@@ -84,8 +79,6 @@ h1 {
 }
 
 .main-nav li:hover {
-	/*	text-decoration: underline;*/
-	
 	background-color: #000;
 	cursor: pointer;
 }
@@ -101,7 +94,7 @@ h1 {
 	height: 450px;
 }
 
-.whatido ul {	
+.whatido ul {
 	overflow: hidden;
 	padding-left: 0;
 }
@@ -126,7 +119,7 @@ h1 {
 	background-image: url(../img/skill-product.png);
 }
 
-.info-section header{
+.info-section header {
 	margin-bottom: 60px;
 	text-align: center;
 }
@@ -134,7 +127,7 @@ h1 {
 .info-section header h2 {
 	font-size: 28px;
 	text-transform: uppercase;
-	letter-spacing: 3px;	
+	letter-spacing: 3px;
 }
 
 .info-section__description {
@@ -150,44 +143,97 @@ h1 {
 	margin: .4em auto;
 }
 
-.education-experience ul li{
+.education-experience ul li {
 	height: 250px;
 }
 
-.education-experience ul{
+.education-experience ul {
 	padding-left: 0
 }
 
-.education-experience img{
+.education-experience img {
 	width: 180px;
-	height: 180px;	
+	height: 180px;
 	float: left;
-	padding-right: 40px;	
+	padding-right: 40px;
 }
 
 .education-experience__title {
 	font-weight: bold;
 }
 
-.education-experience__description{
+.education-experience__description {
 	overflow: hidden;
 }
 
-.photos{
+.photos {
 	padding: 30px 0px;
 }
 
-.photos__list{
+.photos__list {
 	overflow: hidden;
 	padding-left: 0;
 }
 
 .photos__list li {
-/*	box-sizing: border-box;*/
 	float: left;
 	padding: 10px;
 }
 
-.photos__list li img{
+.photos__list li img {
+	width: 70%;
+}
+
+.get-in-touch__list li {
+	float: left;
+	width: 23%;
+	padding-right: 2%;
+}
+
+.get-in-touch__list {
+	overflow: hidden;
+	text-align: center;
+}
+
+.contact input,
+.contact textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact button {
+	border: none;
+	border-radius: 9999px;
+	background: #ffd524;
+	cursor: pointer;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	box-shadow: 0 3px 0 #daae1d;
+	height: 34px;
+	font-size: 22px;
+}
+
+.contact form {
+	width: 40%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.contact form button {
 	width: 100%;
+}
+
+.contact input,
+.contact textarea {
+	padding: 8px;
+	margin-bottom: 20px;
+	display: block;
+	width: 100%;
+}
+
+.contact label {
+	position: absolute;
+	left: -90px;
+	width: 80px;
+	text-align: right;
 }
