@@ -186,8 +186,12 @@ h1 {
 .get-in-touch__list li {
 	float: left;
 	width: 25%;
-	padding:0 2px;
+	padding:0 50px;
 	box-sizing: border-box;
+}
+
+.get-in-touch__list li img{
+	width: 100%;
 }
 
 .get-in-touch__list {
